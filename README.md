@@ -19,6 +19,8 @@ O modelo deve preferencialmente ser desenvolvido com Google TensorFlow. Caso voc
 
 O modelo deve receber como entrada um bloco de texto extraído do PDF e retornar as entidades e suas posições no texto. Fique à vontade pra determinar o formato da saída.
 
+Note que o modelo não precisa modificar o arquivo PDF original para mostrar as entidades. Apenas fornecer uma estrutura de dados com as informações é bastante.
+
 Não se esqueça de informar os hiperparâmetros de treinamento e informar como você fez para ajustar seu modelo aos dados.
 
 ## Como você preprocessou e transformou os dados de entrada?
